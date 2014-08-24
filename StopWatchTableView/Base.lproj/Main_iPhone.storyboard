@@ -28,16 +28,16 @@
                         <viewControllerLayoutGuide type="bottom" id="eEA-su-9gk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="HIh-4L-vOL">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="2x6-zE-uaC">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="Dja-oe-qLa" style="IBUITableViewCellStyleDefault" id="i0e-S9-pvB">
-                                        <rect key="frame" x="0.0" y="86" width="320" height="44"/>
+                                        <rect key="frame" x="0.0" y="22" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="i0e-S9-pvB" id="Wk7-UE-kOs">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
@@ -62,12 +62,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="2x6-zE-uaC" secondAttribute="trailing" id="0r6-Vv-Idb"/>
-                            <constraint firstItem="2x6-zE-uaC" firstAttribute="top" secondItem="kLj-Px-3X3" secondAttribute="bottom" constant="-64" id="mHn-97-I27"/>
-                            <constraint firstItem="eEA-su-9gk" firstAttribute="top" secondItem="2x6-zE-uaC" secondAttribute="bottom" id="oHv-sq-ZZb"/>
-                            <constraint firstItem="2x6-zE-uaC" firstAttribute="leading" secondItem="HIh-4L-vOL" secondAttribute="leading" id="vLY-ss-s2W"/>
+                            <constraint firstItem="2x6-zE-uaC" firstAttribute="top" secondItem="HIh-4L-vOL" secondAttribute="top" id="2dc-6Q-neC"/>
+                            <constraint firstItem="2x6-zE-uaC" firstAttribute="leading" secondItem="HIh-4L-vOL" secondAttribute="leading" id="BTa-e9-jFm"/>
+                            <constraint firstAttribute="trailing" secondItem="2x6-zE-uaC" secondAttribute="trailing" id="eBh-7M-6dW"/>
+                            <constraint firstAttribute="bottom" secondItem="2x6-zE-uaC" secondAttribute="bottom" id="rZa-kL-vNv"/>
                         </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <navigationItem key="navigationItem" title="Stop Watch List" id="vRf-Gr-tzM">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="BIJ-Uy-iMb">
                             <connections>

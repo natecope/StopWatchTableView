@@ -73,6 +73,13 @@
 }
 
 
+- (void)tableView:(UITableView *)tableView didEndDisplayingCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
+    StopWatch *stopWatch = _stopWatchArray[indexPath.row];
+    stopWatch.delegate = nil;
+    
+}
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     

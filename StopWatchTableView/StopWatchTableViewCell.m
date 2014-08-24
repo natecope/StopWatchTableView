@@ -35,6 +35,26 @@
     
 }
 
+- (void)setStopWatch:(StopWatch *)stopWatch{
+    
+    //default behavior of auto-set-get
+    _stopWatch = stopWatch;
+    
+    //get current time
+    NSTimeInterval duration = [_stopWatch duration];
+    self.timeLabel.text = [_stopWatch formatTimeInterval:duration];
+    
+    //custom behavior
+    if(_stopWatch.didStart){
+        self.iconImage.image = [UIImage imageNamed:@"StopButton.png"];
+        [self.startStopButton setTitle:@"Stop" forState:UIControlStateNormal];
+    }else {
+        self.iconImage.image = [UIImage imageNamed:@"StartButton.png"];
+        [self.startStopButton setTitle:@"Start" forState:UIControlStateNormal];
+    }
+    
+}
+
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated
 {
     [super setSelected:selected animated:animated];
@@ -65,7 +85,11 @@
     
     NSLog(@"%@.%@(): reset pressed ", NSStringFromClass([self class]), NSStringFromSelector(_cmd)  );
     
+    [self.stopWatch stopTimer];
     [self.stopWatch resetTimer];
+    
+    self.iconImage.image = [UIImage imageNamed:@"StartButton.png"];
+    [self.startStopButton setTitle:@"Start" forState:UIControlStateNormal];
 }
 
 

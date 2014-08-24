@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BB737D4E-E135-45EC-8CBB-1A7B5312C723</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StopWatchTableView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>52D0E5D4-79D1-48FF-9101-AE8B51E17223</key>
+		<string>https://github.com/natecope/StopWatchTableView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>StopWatchTableView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>52D0E5D4-79D1-48FF-9101-AE8B51E17223</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/natecope/StopWatchTableView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>52D0E5D4-79D1-48FF-9101-AE8B51E17223</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>52D0E5D4-79D1-48FF-9101-AE8B51E17223</string>
+			<key>IDESourceControlWCCName</key>
+			<string>StopWatchTableView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
